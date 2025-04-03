@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de compra</title>
+</head>
+<body>
+    <center>
+        <h1>Suas compras!</h1>
+        <script>
+            var usuario = prompt ("Digite o seu usuário: ")
+            var item1 = parseFloat (prompt ("Qual o valor do seu primeiro item?"))
+            var qtdeItem1 = parseInt (prompt("Qual é a quantidade do primeiro item?"))
+            var item2 = parseFloat (prompt ("Qual é o valor do seu segundo item?"))
+            var qtdeItem2 = parseInt (prompt("Qual é a quantidade do segundo item?"))
+            var item3 = parseFloat (prompt ("Qual é o valor do seu terceiro item?"))
+            var qtdeItem3 = parseInt (prompt("Qual é a quantidade do terceiro item?"))
+            var item4 = parseFloat (prompt ("Qual é o valor do seu quarto item?"))
+            var qtdeItem4 = parseInt (prompt ("Qual é a quantidade do quarto item?"))
+
+            var totalItem1 = item1 * qtdeItem1
+            var totalItem2 = item2 * qtdeItem2
+            var totalItem3 = item3 * qtdeItem3
+            var totalItem4 = item4 * qtdeItem4
+            
+            var totalcompra = totalItem1 + totalItem2 + totalItem3 + totalItem4
+            document.write("Total da sua compra= R$ " + totalcompra)
+        </script>
+    </center>
+</body>
+</html>
